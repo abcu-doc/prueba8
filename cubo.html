@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Cómo armar un Cubo Rubik</title>
+</head>
+<body>
+  <div class="container">
+    <h1>CUBO RUBIK</h1><!--titulo-->
+    <p>El Cubo Rubik es un rompecabezas tridimensional que ha desafiado a muchas personas a lo largo de los años. 
+       Si lo que buscas es aprender a resolverlo estas en el lugar correcto.</p><!--parrafo-->
+    <p>Lo primero a conocer serian algunos conceptos que usaremos en los diferentes algoritmos(si eres alguien experimentado y ya conoces estos datos
+        puedes pasar al siguiente apartado pero si eres principiante, te recomiendo que te quedes ya que son datos que te ayudaran mas adelante).</p>
+    <h2>Conceptos de un cubo rubik 3x3</h2><!--subtitulo-->
+    <p>Cuando te encuentres la letra normal (U) quiere decir que el giro se deberá hacer en sentido de las agujas del reloj y cuando la letra lleve un apóstrofe (U’)
+       el giro será antihorario. Podemos encontrarlos de la siguiente manera:</p>
+       <ul>
+        <li style="text-align: center;">U (Up): Capa Superior</li><!--lista-->
+        <li style="text-align: center;">D (Down): Capa Inferior</li>
+        <li style="text-align: center;">R (Right): Capa Derecha</li>
+        <li style="text-align: center;">L (Left): Capa Izquierda</li>
+        <li style="text-align: center;">F (Front): Capa Frontal</li>
+        <li style="text-align: center;">B (Back): Capa Trasera</li>
+       </ul>
+       <img src="notacion.webp"><!--imagen-->
+       <h2>Piezas de un cubo rubik</h2>
+       <p>Debemos conocer los diferentes tipos de piezas que forman los cubos rubik. En el caso del 3x3,
+         está compuesto por tres tipos de piezas difrentes: centros, aristas y esquinas.
+         Por muchos movimientos que hagamos, nunca podremos poner una esquina en la posición de una arista.</p>
+         <ul>
+          <li style="text-align: left;">Centros: los centros de un cubo de rubik son piezas que nunca se mueven.</li>
+          <li style="text-align: left;">Aristas: el cubo 3x3 tiene 12 aristas. Se sitúan entre las esquinas y están formadas por dos colores.</li>
+          <li style="text-align: left;">Esquinas: tendremos un total de 8 esquinas y cada una se compone de tres colores diferentes.</li>
+         </ul>
+         <img src="piezas_cubo.webp">
+         <p>En total tenemos 26 piezas, de las que 20 se mueven (aristas y esquinas). Las 6 restantes,
+           son los centros y nos indicarán el color del que tenemos que formar.</p>
+           <h2>Capaz de un cubo rubik</h2>
+           <p> Estos cubos se componen de tres capas: superior, central e inferior.</p>
+           <ul>
+            <li style="text-align: left;">En la capa superior tenemos que hacer primero la cruz y después meter las esquinas en su posición correcta.</li>
+            <li style="text-align: left;">En la capa central tendremos que buscar las aristas y colocarlas en su posición correcta.</li>
+            <li style="text-align: left;">En la última capa tendremos que repetir el proceso que hemos hecho en la primera capa, pero haciendo una serie de algoritmos para no arruinar la parte que ya tenemos hecha.</li>
+           </ul>
+           <img src="capas_cubo.webp">
+           <p>Ahora que ya sabes los conceptos basicosde un cubo rubik 3x3 selecciona el apartado "principante" para empezar a armar el cubo rubik</p>
+    <a href="principiante.html">
+      <button><!--boton-->
+        <span>PRINCIPIANTE</span>
+      </button>
+  </a>
+    </div>
+</body>
+</html>
